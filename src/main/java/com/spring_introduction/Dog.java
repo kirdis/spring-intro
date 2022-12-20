@@ -15,7 +15,7 @@ public class Dog implements Pet{
         System.out.println("wow-wow");
     }
 
-    @PostConstruct
+/*    @PostConstruct
     public void init() {
         System.out.println("Class Dog: init method");
     }
@@ -23,5 +23,5 @@ public class Dog implements Pet{
     @PreDestroy
     public void destroy() {
         System.out.println("Class Dog: destroy");
-    }
+    }*/
 }

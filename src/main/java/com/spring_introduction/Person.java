@@ -9,11 +9,11 @@ import org.springframework.stereotype.Component;
 public class Person {
 
     private Pet pet;
-    @Value("${person.name}")
+    //@Value("${person.name}")
     private String name;
-    @Value("${person.surname}")
+    //@Value("${person.surname}")
     private String surname;
-    @Value("${person.age}")
+    //@Value("${person.age}")
     private int age;
 
 /*    @Autowired
@@ -27,7 +27,7 @@ public class Person {
     }
 
     @Autowired
-    @Qualifier("dogBean")
+    @Qualifier("catBean")
     public void setPet(Pet pet) {
         System.out.println("Class Person: set pet");
         this.pet = pet;
